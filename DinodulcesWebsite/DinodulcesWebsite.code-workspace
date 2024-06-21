@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "DinodulcesWebsite",
+			"path": "."
+		},
+		{
+			"name": "assets",
+			"path": "C:/Users/Corsair/Desktop/loader-pagina-main/assets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DinodulcesWebsite"
+	}
+}

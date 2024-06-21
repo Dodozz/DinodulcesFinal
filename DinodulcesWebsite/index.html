@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/Logo.png" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            
+            <li><a href="Catalogo.html">Catalogo</a></li>
+            <li><a href="pedidos.html">Pedidos Especiales</a></li>
+            <li><a href="Rating.html">Reseñas</a></li>
+        </ul>
+        <div class="cart-button">
+            <a href="ShoppingCar.html"><img src="img/carrito-de-compras.png" alt="Carrito"></a>
+        </div>
+        <div class="login-button">
+            <a href="Login.html">Iniciar sesión</a>
+        </div>
+    </nav>
+
+    <!-- Titulo y pressentación -->
+
+    <div class="header">
+        <h1>DINODULCES</h1>
+        <p>Negocio dedicado a la venta de dulces a granel. Proporcionamos calidad en los productos y el servicio. El mínimo de compra es de 15kg, mínimo 1kg por producto.  </p>
+        <p>¡Bienvenido!, disfrute.</p>
+    </div>
+
+    <!-- Slider de imágenes -->
+
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="img/BANNER1.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/BANNER2.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/BANNER3.png" alt="">
+            </div>
+            <div class="item">
+                <img src="img/BANNER4.png" alt="">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    
+    <div class="header2">
+        <h2>PRODUCTOS DESTACADOS</h2>
+    </div>
+
+    <div class="wrapper">
+		<div class="product-area">
+
+			<div class="img-area">
+				<img alt="Product 1" src="img/cacahuate-hot-nut.jpg">
+				<div class="product-overlay">
+					<div class="overlay">
+						<a class="btn-1" href="">Añadir al carrito</a> 
+            			
+					</div>
+				</div>
+			</div>
+
+			<div class="info-area">
+				<h3>Cacahuate Hot-Nut</h3>
+                <p>Cacahuate con cobertura crujiente cubierta de chile en polvo.</p>
+				<div class="product-price">
+					$70.00 kg
+				</div>
+			</div>
+		</div>
+
+		<div class="product-area">
+			<div class="img-area">
+				<img alt="" src="img/taponcitos.jpg">
+				<div class="product-overlay">
+					<div class="overlay">
+						<a class="btn-1" href="">Añadir al carrito</a> 
+					</div>
+				</div>
+			</div>
+			<div class="info-area">
+				<h3>Bombón de chocolate (Taponcitos)</h3>
+                <p>Bombón cubierto de chocolate. Esponjoso, dulce y suave.</p>
+				<div class="product-price">
+					$200.00 kg
+				</div>
+			</div>
+		</div>
+		<div class="product-area">
+			<div class="img-area">
+				<img alt="" src="img/gomitas-tiburon.jpg">
+				<div class="product-overlay">
+					<div class="overlay">
+						<a class="btn-1" href="">Añadir al carrito</a> 
+            
+					</div>
+				</div>
+			</div>
+			<div class="info-area">
+				<h3>Gomita de Tiburón</h3>
+                <p>Gomita con sabor a mora azul. Refrescante y exotica.</p>
+				<div class="product-price">
+					$110.00 kg
+				</div>
+			</div>
+		</div>
+    </div>
+	
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>DINODULCES</h2>
+                <p>Negocio dedicado a la venta de dulces a granel. Proporcionamos calidad en los productos y el servicio.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Enlaces Rápidos</h2>
+                <ul>
+                    <li><a href="Catalogo.html">Catálogo</a></li>
+                    <li><a href="pedidos.html">Pedidos Especiales</a></li>
+                    <li><a href="Rating.html">Reseñas</a></li>
+                    <li><a href="Login.html">Iniciar Sesión</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contacto</h2>
+                <ul>
+                    <li><i class="fa fa-whatsapp"></i> WhatsApp</li>
+                    <li><i class="fa fa-instagram"></i> Instagram</li>
+                    <li><i class="fa fa-facebook"></i> Facebook</li>
+                    <li><i class="fa fa-envelope"></i> Correo Electrónico</li>
+                </ul>
+            </div>
+            <div class="footer-section subscribe">
+                <h2>Suscríbete</h2>
+                <form action="#">
+                    <input type="email" placeholder="Introduce tu email" required>
+                    <button type="submit">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 DINODULCES</p>
+        </div>
+    </footer>
+    
+    <script src="scripts/app.js"></script>
+</body>
+</html>

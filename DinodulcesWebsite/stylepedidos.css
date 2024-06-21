@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(20, 0, 44);
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+.fakebody2 {
+    margin-top: -42%;
+    margin-left: 18%;
+}
+
+.placeholder2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.13);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    width: 60%;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.checkbox-group label {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease, border 0.3s ease;
+    color: white;
+    display: flex;
+    flex-direction: column; /* Hace que los elementos internos se apilen verticalmente */
+    align-items: center;
+    border: 2px solid transparent; /* Borde transparente por defecto */
+}
+
+.checkbox-group input[type="checkbox"] {
+    display: none; /* Esconde el checkbox */
+}
+
+.checkbox-group input[type="checkbox"]:checked + .product-image {
+    border: 2px solid white; /* Borde blanco cuando el producto está seleccionado */
+}
+
+.checkbox-group input[type="checkbox"]:checked + .product-image + span {
+    color: white; /* Cambia el color del texto cuando el producto está seleccionado */
+}
+
+.product-image {
+    width: 70px; /* Tamaño uniforme para todas las imágenes */
+    height: 70px; /* Tamaño uniforme para todas las imágenes */
+    border-radius: 10px; /* Bordes redondeados sutiles */
+    object-fit: cover; /* Asegura que la imagen se ajuste bien dentro de los bordes */
+    margin-bottom: 5px; /* Espacio entre la imagen y el nombre del producto */
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    color: white;
+}
+
+.cotizar {
+    background: rgba(255, 123, 0, 0.8);
+}
+
+.comprar {
+    background: rgba(0, 166, 255, 0.8);
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
